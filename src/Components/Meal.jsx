@@ -1,5 +1,7 @@
 import React from 'react'
 import MealItem from './MealItem';
+import RecipeIndex from './RecipeIndex';
+
 const Meal= ()=> {
   return (
     <>
@@ -22,6 +24,10 @@ const Meal= ()=> {
             <MealItem/>
             <MealItem/>
       
+        </div>
+        <div className="indexContainer">
+            <RecipeIndex/>
+
         </div>
 
     </div>
