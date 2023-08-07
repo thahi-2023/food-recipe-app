@@ -1,5 +1,5 @@
 import React from 'react'
-
+import MealItem from './MealItem';
 const Meal= ()=> {
   return (
     <>
@@ -13,6 +13,10 @@ const Meal= ()=> {
         <div className="searchBox">
             <input type="search" className="search-bar"/>
 
+        </div>
+        <div className="container">
+            <MealItem/>
+      
         </div>
 
     </div>
