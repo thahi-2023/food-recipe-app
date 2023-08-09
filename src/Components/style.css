@@ -94,5 +94,15 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+.ingredients, .instructions{
+    flex-basis: 50%;
+    text-align: justify;
     
+}
+.ingredients h4{
+    margin-top: 1.5rem;
+    font-weight: bold;
+
 }
