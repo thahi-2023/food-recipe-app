@@ -106,3 +106,15 @@ img{
     font-weight: bold;
 
 }
+iframe{
+    height: 400px;
+    width: 100%;
+
+}
+.video{
+    width: 80%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
