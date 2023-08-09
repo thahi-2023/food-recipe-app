@@ -65,3 +65,34 @@ img{
     color: black;
     margin: 0 5px 0 5px;
 }
+.content img{
+    width:50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 5px 0 5px;
+    top: 50%;
+    left: 50%;
+}
+.content .inner-content{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+.recipe-details{
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
