@@ -1,15 +1,25 @@
 import React  from "react";
 
-const MealItem =()=> {
+const MealItem =({data})=> {
+    console.log(data)
     return(
         <>
-        <div className="card">
+        {
+            (!data) ? "Recipe Not Found": data.map(item=>{
+                return (
+                    <div className="card">
           <img
-           src="https:\/\/www.themealdb.com\/images\/media\/meals\/ustsqw1468250014.jpg"
+           src={item.strMealThumb}
+           
             alt="" />  
-            <h3>Spicy Arrabiata Penne</h3>
+            <h3>{item.strMeal}</h3>
 
         </div>
+
+                )
+            })
+        }
+        
 
 
         </>

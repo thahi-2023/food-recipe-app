@@ -1,8 +1,21 @@
-import React from 'react'
+import React from 'react';
+import { useState, useEffect } from 'react';
 import MealItem from './MealItem';
 import RecipeIndex from './RecipeIndex';
 
+
 const Meal= ()=> {
+    const [url,setUrl]=useState("https:/www.themealdb.com/api/json/v1/1/search.php?f=a");
+    const [item,setItem]=useState();
+    const[show,setShow]=useState(false);
+
+    useEffect(()=>{
+        fetch(url).then(res=>res.json()).then(data=>{
+            console.log(data.meals);
+            setItem(data.meals);
+            setShow(true);
+        })
+    },[url])
   return (
     <>
     <div className="main">
@@ -17,12 +30,11 @@ const Meal= ()=> {
 
         </div>
         <div className="container">
-            <MealItem/>
-            <MealItem/>
-            <MealItem/>
-            <MealItem/>
-            <MealItem/>
-            <MealItem/>
+            {
+                show ? <MealItem data={item}/>:"Recipe Not Found"
+            }
+           
+           
       
         </div>
         <div className="indexContainer">
