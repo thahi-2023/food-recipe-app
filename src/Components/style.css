@@ -117,6 +117,7 @@ img{
    
     position:absolute;
     top: 40%;
+    right: auto;
     left: 70%;
     transform: translate(-50%,-50%);
     background-image: url(https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg);
@@ -166,6 +167,6 @@ iframe{
     width: 120%;
     margin: 3rem auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
 }
