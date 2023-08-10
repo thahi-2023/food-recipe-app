@@ -97,7 +97,7 @@ img{
 
 
 .content img{
-    width:30%;
+    width:40%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -130,22 +130,31 @@ img{
     text-align: center;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 }
+
 .recipe-details{
     width: 70%;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 
 }
+
+
 .ingredients, .instructions{
     flex-basis: 50%;
-    text-align: justify;
+    text-align: left;
+    
+    
+    
     
 }
 .ingredients h4{
     margin-top: 1.5rem;
     font-weight: bold;
+    
+    
 
 }
 iframe{
@@ -154,9 +163,9 @@ iframe{
 
 }
 .video{
-    width: 80%;
+    width: 120%;
     margin: 3rem auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
 }
