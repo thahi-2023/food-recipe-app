@@ -38,7 +38,7 @@ const Meal= ()=> {
 
         </div>
         <div className="searchBox">
-            <input type="search" className="search-bar"
+            <input type="search" className="search-bar" placeholder='tomato, potato...'
             onChange={e=>setSearch(e.target.value)} onKeyPress={searchRecipe}/>
 
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import {useParams} from "react-router-dom";
 
-let vId="";
+var Id="";
 
 const RecipeInfo=()=>{
     const [item,setItem]=useState();
@@ -18,7 +18,7 @@ const RecipeInfo=()=>{
     if(item){
         const url=item.strYoutube;
         const str=url.split("=");
-        vId=str[str.length-1];
+        Id=str[str.length-1];
     }
     return(
         <>
@@ -52,12 +52,14 @@ const RecipeInfo=()=>{
                     <h4>{item.strInstructions}</h4>
 
                 </div>
+                
                 <div className="video">
-                    <iframe src={`https://www.youtube.com/embed/${vId}`}>
+                    <iframe src={`https://www.youtube.com/embed/${Id}`}>
 
                     </iframe>
 
                 </div>
+                
 
             </div>
             </>
