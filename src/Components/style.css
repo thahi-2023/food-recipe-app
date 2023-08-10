@@ -23,6 +23,15 @@ body{
     padding-top: 2rem;
     margin: 1rem;
 }
+.heading h1 span{
+    color: orange;
+}
+.heading h4 {
+    color: aqua;
+}
+.heading h4 span{
+    color: rgb(130, 27, 27);
+}
 .search-bar{
     margin:1.5rem 0;
     width:400px;
@@ -46,12 +55,14 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
     grid-gap: 2rem;
+    cursor: pointer;
 }
 .card{
     width:180px;
     border-radius: 1rem;
     background-color: yellow;
     padding: 5px;
+    box-shadow: 10px 10px 50px 5px darkgray;
 }
 .card:hover{
     background-color: olivedrab;
@@ -86,7 +97,7 @@ img{
 
 
 .content img{
-    width:50%;
+    width:30%;
     height: 50%;
     display: flex;
     justify-content: center;
@@ -95,14 +106,25 @@ img{
     margin: 0 5px 0 5px;
     top: 50%;
     left: 50%;
+    border-radius: 1rem;
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
 }
 .content .inner-content{
-    position: absolute;
-    top: 35%;
+    
+    
+   
+    position:absolute;
+    top: 40%;
     left: 70%;
     transform: translate(-50%,-50%);
-    background-color: rgba(255,255,255,0.8);
-    color: black;
+    background-image: url(https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg);
+    background-size: "cover";
+    height: 30vh;
+    width: 75vh;
+    background-repeat:no-repeat;
+    color: white;
     font-size: 1.5rem;
     padding: 2rem;
     text-align: center;

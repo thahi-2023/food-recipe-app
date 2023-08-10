@@ -32,9 +32,11 @@ const Meal= ()=> {
     <>
     <div className="main">
         <div className="heading">
-            <h1>Search Your Favourite Recipes Here!</h1>
-            <h3> "The Secret Ingerident Is Cheese"</h3>
-            <h4>People who give their food, give you their heart</h4>
+            <h1> The Secret Ingerident Is<span> Cheese😊</span></h1>
+            <h3> "People Who Give Their Food🍒, Give You Their Heart❤️"</h3><br/>
+            <h4>
+            Search Your Favourite <span>Recipes</span> Here!
+            </h4>
 
         </div>
         <div className="searchBox">
