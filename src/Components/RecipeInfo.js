@@ -23,7 +23,8 @@ const RecipeInfo=()=>{
     return(
         <>
          {
-            (!item)?"":(<>
+            (!item)?"":(
+            <>
             <div className="content">
                 <img src={item.strMealThumb} alt="" />
                 <div className="inner-content">
@@ -45,6 +46,12 @@ const RecipeInfo=()=>{
                     <h4>{item.strIngredient6} :{item.strMeasure6} </h4>
                     <h4>{item.strIngredient7} :{item.strMeasure7} </h4>
                     <h4>{item.strIngredient8} :{item.strMeasure8} </h4>
+                    <h4>{item.strIngredient9} :{item.strMeasure9} </h4>
+                    <h4>{item.strIngredient10} :{item.strMeasure10} </h4>
+                    <h4>{item.strIngredient11} :{item.strMeasure11} </h4>
+                    <h4>{item.strIngredient12} :{item.strMeasure12} </h4>
+                    <h4>{item.strIngredient13} :{item.strMeasure13} </h4>
+                    <h4>{item.strIngredient14} :{item.strMeasure14} </h4>
 
                 </div>
                 <div className="instructions">

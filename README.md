@@ -104,7 +104,7 @@ Bona Nova: google font:
     )
 })
 
-### unsoleved Problem
+### unsolved Problem
 
 1. More robust error handling could be implemented for  ApI request 
 2. Consider potential Cors issue when making API requests
