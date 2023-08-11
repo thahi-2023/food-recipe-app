@@ -75,15 +75,20 @@ alpha.map(item=>{ //item variable store each item of the array
 })
 
 
-**Note: this is a one-way operation. Once  `eject`, you can't go back!**
 
 
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tecnologies Used:
+
+1. React: The app is built using React
+2. useState:
+the useState hook is used for managing component state
+3. useEffect: the useEffect hook is used to handling side effects such as data fetching
+
+Y
+
 
 ### Code Splitting
 
@@ -103,7 +108,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This section has moved here: [https://fac
+ebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `npm run build` fails to minify
 
