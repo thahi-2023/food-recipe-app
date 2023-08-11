@@ -1,11 +1,15 @@
 # Food- Reacipe-app####
+
+### REACT PROJECT
+
   This is food recipe app. this app built using React, it help to fetch your favourite recipe from MealDBP API. 
 
   1. here you can search your favourite recipe using name in search bar
   2. you can also search recipe by alpha character using index
   3.Also you can search recipe by thier individual ID
 
-  ###Installation###
+  
+  ### Installation
 
   1. make sure to installed Node.js and npm on your system
   2. Clone the project repositary or create a new project folder
@@ -25,8 +29,14 @@ the useState hook is used for managing component state
 4. Fetch API: the Fetch Api is used to make network requests to external APIs.
 5. MealDP API:the App interct with the MealDP platform to access video and lmage detection service.
 
+REACT
+HTML
+CSS
+JAVASCRIPT
+LOCALSTORAGE
 
-## getting started
+
+## Approach Taken 
 
 src--->Components---> Meal.jsx
 
@@ -93,6 +103,12 @@ Bona Nova: google font:
 
     )
 })
+
+### unsoleved Problem
+
+1. More robust error handling could be implemented for  ApI request 
+2. Consider potential Cors issue when making API requests
+3. not  all youtube  video are working
 
 
 
