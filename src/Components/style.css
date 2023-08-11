@@ -146,9 +146,8 @@ iframe{
 
 }
 .video{
-    width: 120%;
+    width: 80%;
     margin: 3rem auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
+    
+    
 }

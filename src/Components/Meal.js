@@ -34,7 +34,7 @@ const Meal= ()=> {
     <div className="main">
         <div className="heading">
             <h1> The Secret Ingerident Is<span> Cheese😊</span></h1>
-            <h3> "People Who Give Their Food 🍜🍚, Give You Their Heart ❤️"</h3><br/>
+            <h2> "🍒Nothing Bring People Together Like Good 🍚Food 🍒"</h2><br/>
             <h4>
             Search Your Favourite <span>Recipes 🍜</span> Here!
             </h4>
