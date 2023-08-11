@@ -5,6 +5,26 @@
   2. you can also search recipe by alpha character using index
   3.Also you can search recipe by thier individual ID
 
+  ###Installation###
+
+  1. make sure to installed Node.js and npm on your system
+  2. Clone the project repositary or create a new project folder
+  3. Navigate to the project folder in your terminal
+  4.run npm install to install the project dependencies
+  5. run npm start to strat ti to go developement server
+  6. open your browser and navigate
+
+  
+## Tecnologies Used:
+
+
+1. React: The app is built using React
+2. useState:
+the useState hook is used for managing component state
+3. useEffect: the useEffect hook is used to handling side effects such as data fetching
+4. Fetch API: the Fetch Api is used to make network requests to external APIs.
+5. MealDP API:the App interct with the MealDP platform to access video and lmage detection service.
+
 
 ## getting started
 
@@ -80,14 +100,6 @@ Bona Nova: google font:
 
 
 
-## Tecnologies Used:
-
-1. React: The app is built using React
-2. useState:
-the useState hook is used for managing component state
-3. useEffect: the useEffect hook is used to handling side effects such as data fetching
-4. Fetch API: the Fetch Api is used to make network requests to external APIs.
-5. MealDP API:the App interct with the MealDP platform to access video and lmage detection service.
 
 
 
@@ -98,9 +110,4 @@ the useState hook is used for managing component state
 
 
 
-This section has moved here: [https://fac
-ebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
