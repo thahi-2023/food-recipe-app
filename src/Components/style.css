@@ -97,35 +97,17 @@ img{
 
 
 .content img{
-    width:40%;
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 0 5px 0 5px;
-    top: 50%;
-    left: 50%;
-    border-radius: 1rem;
-    background-color: black;
-    padding: 5px;
-    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
-}
-.content .inner-content{
-    
-    
+    width:100%;
+    height: 600px;
    
+} 
+ .content .inner-content{
     position:absolute;
-    top: 40%;
-    right: auto;
-    left: 70%;
+    top: 45%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    background-image: url(https://thumbs.dreamstime.com/b/wooden-table-food-top-view-cafe-102532611.jpg);
-    background-size: "cover";
-    height: 30vh;
-    width: 75vh;
-    background-repeat:no-repeat;
-    color: white;
+    background-color: rgba(255,255,255,0.8);
+    color: black;
     font-size: 1.5rem;
     padding: 2rem;
     text-align: center;
@@ -134,7 +116,7 @@ img{
 
 .recipe-details{
     width: 70%;
-    margin: 0.5rem auto;
+    margin: 2rem auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -145,7 +127,7 @@ img{
 
 .ingredients, .instructions{
     flex-basis: 50%;
-    text-align: left;
+    text-align: justify;
     
     
     
