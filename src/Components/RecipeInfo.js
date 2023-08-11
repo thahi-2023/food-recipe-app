@@ -28,6 +28,7 @@ const RecipeInfo=()=>{
             <div className="content">
                 <img src={item.strMealThumb} alt="" />
                 <div className="inner-content">
+                   //item will store the value render from str attribute
                     <h1>{item.strMeal}</h1>
                     <h2>{item.strArea} Food </h2>
                     <h3> Category {item.strCategory}</h3>
