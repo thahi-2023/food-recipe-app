@@ -1,4 +1,11 @@
-# Getting Started 
+# Food- Reacipe-app####
+  This is food recipe app. this app built using React, it help to fetch your favourite recipe from MealDBP API. 
+
+  1. here you can search your favourite recipe using name in search bar
+  2. you can also search recipe by alpha character using index
+  3.Also you can search recipe by thier individual ID
+  
+
 
 src--->Components---> Meal.jsx
 
