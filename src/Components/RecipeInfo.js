@@ -60,15 +60,14 @@ const RecipeInfo=()=>{
 
                 </div>
                  
-                <div className="video">
+            </div>
+             
+            <div className="video">
                     <iframe src={`https://www.youtube.com/embed/${Id}`}>
 
                     </iframe>
 
                 </div>
-                
-
-            </div>
             </>
 
             )
