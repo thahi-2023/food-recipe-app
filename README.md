@@ -7,6 +7,9 @@
   1. here you can search your favourite recipe using name in search bar
   2. you can also search recipe by alpha character using index
   3.Also you can search recipe by thier individual ID
+  4.API used "https://www.themealdb.com/api.php"
+  
+
 
   
   ### Installation
