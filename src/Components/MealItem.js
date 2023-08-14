@@ -8,9 +8,10 @@ const MealItem =({data})=> {
 
     return(
         <>
+         
         {
             (!data) ? "Recipe Not Found": data.map(item=>{
-                //map to iterate over an array
+               
                 return (
                     <div className="card" key={item.idMeal} onClick={()=>{navigate(`/${item.idMeal}`)}}>
           <img

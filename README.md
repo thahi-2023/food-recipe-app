@@ -107,7 +107,8 @@ Bona Nova: google font:
   const alpha=["A,"B",.......,"Z"]
 
   map function to iterate over the Array
-  alpha.map(item=>{ //item variable store each item of the array
+  alpha.map(item=>{
+    
     return (
 
     )
