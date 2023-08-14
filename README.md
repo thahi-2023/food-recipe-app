@@ -14,10 +14,14 @@
   
   ### Installation
 
-  clone this repository:
+ ### clone this repository:Git Hub:-
 
    git clone https://github.com/thahi-2023/food-recipe-app
-   
+
+
+### Netlify
+
+https://melodic-cucurucho-5aa290.netlify.app
 
   1. make sure to installed Node.js and npm on your system
   2. Clone the project repositary or create a new project folder
