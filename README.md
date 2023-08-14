@@ -14,6 +14,11 @@
   
   ### Installation
 
+  clone this repository:
+
+   git clone https://github.com/thahi-2023/food-recipe-app
+   
+
   1. make sure to installed Node.js and npm on your system
   2. Clone the project repositary or create a new project folder
   3. Navigate to the project folder in your terminal
